@@ -17,8 +17,12 @@
 // System dependencies
 #include <stdlib.h>
 #include <stdio.h>
+#define _USE_MATH_DEFINES
 #include <math.h>
 #include <float.h>
+
+// DJB disable warnings as errors
+#pragma warning( disable : 4305 4244)
 
 #ifdef __cplusplus
 extern "C" {
